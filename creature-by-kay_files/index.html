@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://s.codepen.io/boomerang/iFrameKey-69c79531-0696-7414-f560-8720b6661563/index.html -->
+<html class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js"></script><script src="./events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js"></script><script src="./css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js"></script><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico"><link rel="mask-icon" type="" href="https://production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111"><link rel="canonical" href="https://codepen.io/pen/">
+
+
+<style type="text/css" class="cp-pen-styles">.contentWrapper{
+	position: relative;
+   	width: 100%;
+   	padding-bottom: 100%;
+}
+
+body{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ear{
+	width:100px;
+	height:100px;
+	border:20px solid #808080;
+	border-radius:50%;
+	background-color:#ffe6ea;
+	float: left;
+	z-index: -1;
+	position: relative;
+
+	/*position: absolute;
+	margin:auto;
+	display: block;*/
+
+}
+
+.head{
+	width:140px;
+	height:140px;
+	border-radius:50%;
+	background-color:#808080;
+	float: left;
+	margin-left: -7%;
+	margin-right: -7%;
+	position: relative;
+	
+
+}
+
+.eye1{
+	width:20px;
+	height:20px;
+	border:15px solid white;
+	border-radius:50%;
+	background-color:black;
+	float: left;
+	position: relative;
+	z-index: 10;
+	margin-top:10%;
+	margin-left: 12%;
+}
+
+.eye2{
+	width:20px;
+	height:20px;
+	border:15px solid white;
+	border-radius:50%;
+	background-color:black;
+	float: left;
+	position: relative;
+	z-index: 10;
+	margin-top:10%;
+}
+
+.triangle1{
+	width:0;
+	height:0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 110px solid #ffffe6;
+	float: left;
+	position: relative;
+	margin-top: 40%;
+	margin-left: 17%;
+	z-index: -1;
+}
+.triangle2{
+	width:0;
+	height:0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 110px solid #ffffe6;
+	float: left;
+	position: relative;
+	margin-top: 40%;
+	margin-left: 12%;
+
+	/*pay attention to z index!*/
+	z-index: -2;
+}
+
+.trunk{
+	width: 40px;
+	height: 200px;
+	background-color: #808080;
+	z-index: -2;
+	position: relative;
+
+	/*shift to move trunk up & left/right*/
+	margin-top: -150px;
+	margin-left: 8px;
+	float: left;
+}
+
+.crease { 
+	width:20px;
+	height:2px; 
+	color:black;
+	z-index: 20;
+}</style></head><body>
+
+	
+	
+		<title>Haathi</title>
+		<link rel="stylesheet" type="text/css" href="./006_haathi.css">
+	
+	
+	
+		<div>
+			<div class="ear"></div>
+			<div class="head">
+				<div class="eye1"></div>
+				<div class="eye2"></div>
+				<div class="triangle1">
+					<div class="trunk"></div>
+				</div>
+				<div class="triangle2"></div>
+			</div>
+			<div class="ear"></div>
+		</div>
+	
+
+	
+
+
+</body></html>
