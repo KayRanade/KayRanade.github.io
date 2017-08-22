@@ -3416,7 +3416,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		padding: 6em 0 2em 0 ;
+		padding: 3em 0 2em 0 ;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -3429,6 +3429,7 @@
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+		text-align: center;
 	}
 
 		#banner:after {
@@ -3465,7 +3466,7 @@
 			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
 			-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
 			transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
-			padding: 0 !important;
+			/*padding: 0 !important;*/
 			position: relative;
 			z-index: 2;
 		}
